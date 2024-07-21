@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.container {
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgba(0, 110, 255, 0.041);
+}
+
+.title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    border: 2px dashed royalblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.header p {
+    margin-top: 10px;
+    color: black;
+}
+
+#guessInput {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    gap: 8px;
+    height: 40px;
+    width: 100px;
+    background: #1b1b1cde;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    color: #FF342B;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background: #1b1b1c;
+}
+
+.text-display {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#messageDisplay {
+    height: 100px;
+    padding: 10px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    resize: none;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="https://unpkg.com/@uiverse/uiverse.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Number Guessing Game</h1>
+        <div class="header">
+            <p>Guess the number between 1 and 100</p>
+        </div>
+        <input type="number" id="guessInput" placeholder="Enter your guess" min="1" max="100">
+        <div class="footer">
+            <button class="button" id="guessBtn">Guess</button>
+            <button class="button" id="resetBtn">Reset</button>
+        </div>
+        <div class="text-display">
+            <textarea id="messageDisplay" placeholder="Messages will appear here..." readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
